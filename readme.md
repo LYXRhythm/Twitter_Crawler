@@ -1,5 +1,3 @@
-```python
-"""
 # Twitter Crawler
 
 1. After extracting the files, make sure `config.py`, `instance.json`, `nitter.py`, and `tweets.py` are in the same directory.
@@ -7,9 +5,9 @@
 3. Run `tweets.py` to start crawling.
 
 --------------------------------------------------------------------------------
-# config.py Parameter Description
+## config.py Parameter Description
 
-term           : Keyword to search for
+term           : Keyword to search for 
 mode           : 'term' to search by keyword, 'user' to search by username
 number         : Number of tweets to crawl
 since          : Start date in 'YYYY-MM-DD' format
@@ -36,7 +34,7 @@ exclude     = None
 max_retries = 10
 
 --------------------------------------------------------------------------------
-# Logging Parameters
+## Logging Parameters
 
 log_level          : None=no logs, 0=warning & error only, 1=info + warnings/errors (default)
 skip_instance_check: Whether to skip instance selection, default=True (recommended)
@@ -46,7 +44,7 @@ log_level = 1
 skip_instance_check = True
 
 --------------------------------------------------------------------------------
-# Output Fields
+## Output Fields
 
 'link'           : Tweet URL
 'text'           : Tweet content
